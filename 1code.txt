@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUDS Pro - Premium Cleaning Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-pro">Pro</span>
+                <span class="logo-suds">SUDS</span>
+            </div>
+            <button class="manage-btn" id="manageBtn">Manage</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <h1 class="page-title">Premium Cleaning Products</h1>
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Sales Modal -->
+    <div class="modal" id="salesModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2 id="modalProductName">Product Name</h2>
+            <div class="modal-product-info">
+                <div class="modal-product-image" id="modalProductImage"></div>
+                <div class="modal-details">
+                    <p class="modal-price">Price: ₹<span id="modalPrice">0</span></p>
+                    <p class="modal-size" id="modalSize">Size: 1L</p>
+                </div>
+            </div>
+            <div class="quantity-input">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="1" value="1">
+            </div>
+            <div class="total-price">
+                <strong>Total: ₹<span id="totalPrice">0</span></strong>
+            </div>
+            <div class="modal-buttons">
+                <button class="btn-cancel" id="cancelBtn">Cancel</button>
+                <button class="btn-confirm" id="confirmBtn">Confirm Sale</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Manage Panel -->
+    <div class="manage-panel" id="managePanel">
+        <div class="manage-content">
+            <div class="manage-header">
+                <h2>Product Management</h2>
+                <button class="close-manage" id="closeManage">&times;</button>
+            </div>
+            <div class="manage-actions">
+                <button class="btn-add" id="addProductBtn">+ Add New Product</button>
+            </div>
+            <div class="products-list" id="productsList">
+                <!-- Products list for management -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Add/Edit Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close" id="closeProductModal">&times;</span>
+            <h2 id="productModalTitle">Add Product</h2>
+            <form id="productForm">
+                <input type="hidden" id="productId">
+                <div class="form-group">
+                    <label for="productName">Product Name:</label>
+                    <input type="text" id="productName" required>
+                </div>
+                <div class="form-group">
+                    <label for="productSize">Size:</label>
+                    <input type="text" id="productSize" placeholder="e.g., 1L, 500ml" required>
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Price (₹):</label>
+                    <input type="number" id="productPrice" min="0" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="productColor">Product Color (for display):</label>
+                    <select id="productColor">
+                        <option value="white">White</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="red">Red</option>
+                        <option value="pink">Pink</option>
+                    </select>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn-cancel" id="cancelProductBtn">Cancel</button>
+                    <button type="submit" class="btn-confirm">Save Product</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message" id="successMessage"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
