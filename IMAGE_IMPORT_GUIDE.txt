@@ -1,0 +1,48 @@
+HOW TO IMPORT YOUR PRODUCT IMAGES
+===================================
+
+STEP 1: Prepare Your Images
+----------------------------
+1. Remove the background from your product images
+2. Ensure they have a clean white background
+3. Save them in high quality (recommended: 300x500px or similar)
+
+STEP 2: Name Your Image Files
+------------------------------
+Based on your products, name them as follows:
+
+1. Liquid Detergent (White) → liquid-detergent-white.jpg (or .png)
+2. Liquid Detergent (Blue) → liquid-detergent-blue.jpg (or .png)
+3. Stain Remover → stain-remover.jpg (or .png)
+4. Floor Cleaner → floor-cleaner.jpg (or .png)
+5. Phenyl → phenyl.jpg (or .png)
+6. Fabric Conditioner → fabric-conditioner.jpg (or .png)
+7. Dish Wash → dish-wash.jpg (or .png)
+
+STEP 3: Copy Images to This Folder
+-----------------------------------
+1. Copy all your product images
+2. Paste them into this 'images' folder
+3. Make sure the file names match exactly as listed above
+
+STEP 4: Refresh Your Website
+------------------------------
+1. Open index.html in your browser
+2. The images should automatically appear
+3. If an image doesn't show, check the file name matches exactly
+
+SUPPORTED FORMATS
+-----------------
+- .jpg / .jpeg
+- .png
+- .webp
+
+IMPORTANT NOTES
+---------------
+- File names are case-sensitive
+- Make sure there are no extra spaces in file names
+- Images should have white backgrounds for best appearance
+- Recommended image size: 300-500px width, 500-700px height
+
+
+

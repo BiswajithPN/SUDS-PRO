@@ -1,0 +1,32 @@
+COPY THESE IMAGE FILES TO THIS FOLDER:
+======================================
+
+1. liquid-detergent-white.jpg (or .png)
+   → For: Liquid Detergent (White) - 1L - ₹80
+
+2. liquid-detergent-blue.jpg (or .png)
+   → For: Liquid Detergent (Blue) - 1L - ₹80
+
+3. stain-remover.jpg (or .png)
+   → For: Stain Remover - 500ml - ₹50
+
+4. floor-cleaner.jpg (or .png)
+   → For: Floor Cleaner - 500ml - ₹60
+
+5. phenyl.jpg (or .png)
+   → For: Phenyl - 1L - ₹50
+
+6. fabric-conditioner.jpg (or .png)
+   → For: Fabric Conditioner - 500ml - ₹80
+
+7. dish-wash.jpg (or .png)
+   → For: Dish Wash - 500ml - ₹60
+
+IMPORTANT:
+- File names must match EXACTLY (case-sensitive, use lowercase)
+- Use hyphens (-) not spaces
+- Supported formats: .jpg, .jpeg, .png, .webp
+- Images should have white/transparent backgrounds
+
+
+
